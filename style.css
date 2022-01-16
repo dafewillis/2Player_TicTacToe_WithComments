@@ -1,0 +1,38 @@
+body {
+    font-family: 'Homer Simpson Revised', sans-serif;
+    background: url(https://cdn.wallpapersafari.com/28/99/T9wVg7.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+section {
+    text-align: center;
+    font-family: 'Homer Simpson Revised', sans-serif;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #333333;
+    border: 1px solid #333333;
+    cursor: pointer;
+
+    line-height: 100px;
+    font-size: 60px;
+}
+
+button {
+    font-family: 'Homer Simpson Revised', sans-serif;
+    background-color: rgb(173, 231, 233);
+    border-radius: 4px;
+}
